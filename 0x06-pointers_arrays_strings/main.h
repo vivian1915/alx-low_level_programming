@@ -1,5 +1,6 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef MAIN_H
+#define MAIN_H
+#include <stdio.h>
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
@@ -12,5 +13,7 @@ char *cap_string(char *);
 char *leet(char *);
 char *rot13(char *);
 void print_number(int n);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+char *add_strings(char *n1, char *n2, char *r, int r_index);
 
-#endif
+#endif /*MAIN_H*/
